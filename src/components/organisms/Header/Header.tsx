@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { Flex } from './styles';
+import Link from 'next/link';
 
 import { Container } from 'Atoms/Container';
 
