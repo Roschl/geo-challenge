@@ -15,6 +15,8 @@ const handler = (req: NextApiRequest, res: NextApiResponse<IResponse>) => {
   const lat = parseFloat(param[1]);
   const lng = parseFloat(param[2]);
 
+  // TODO: CHECK IF GUESS IS IN TIME FOR THE GAME ROUND
+
   const l = locations.filter((l) => l.country === param[0]);
   let d = NaN;
   if (l.length > 0) {
